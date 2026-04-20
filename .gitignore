@@ -1,0 +1,15 @@
+# Audit log dosyalari (hassas olabilir + buyur)
+audit_logs/*.sqlaudit
+
+# TDE / sifreleme icin export edilen .pvk ve .cer dosyalari (GIZLI)
+*.pvk
+*.cer
+*.bak
+
+# Editör / OS
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
